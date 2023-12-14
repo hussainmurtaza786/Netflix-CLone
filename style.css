@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Playball&family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    height: 94vh;
+    background-image: url(Images/netflix-back.jpg);
+    background-position: center center;
+    background-size: max(1400px, 100vw);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main .box {
+    position: absolute;
+    top: 0;
+    height: 94vh;
+    width: 100%;
+    opacity: 0.82;
+    background-color: black;
+}
+
+nav {
+    /* max-width: ; */
+    justify-content: space-between;
+    margin: auto 30px;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.hero {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: calc(100% - 62px);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    /* align-items: center; */
+    color: white;
+    position: relative;
+    font-family: 'Martel Sans', sans-s;
+    /* gap: 23px; */
+    /* padding: 0 30px; */
+margin-top: 2rem;
+margin-left: rem;
+    text-align: start;
+}
+
+.hero> :nth-child(1) {
+    width: 588px;
+    /* height: 166px; */
+    /* margin-bottom: 50px; */
+    /* margin: 50px 30px; */
+    top: 0;
+    line-height: 86px;
+    font-weight: bol;
+    font-size: 28px;
+    /* text-align: center; */
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font: 24px;
+    /* text-align: center; */
+}
+
+.hero> :nth-child(3) {
+    /* text-align: start; */
+    font-weight: 400;
+    font-size: 20px;
+    /* text-align: center; */
+}
+.black{
+    width: 99vw;
+    height: 100px;
+    /* background-color: black; */
+    /* border: 2px solid red; */
+    border-top-right-radius: 250px;
+    border-top-left-radius:250px; ;
+}
+.seperation{
+
+    /* border: 1px solid red; */
+    width: 99%;
+    height: 2px;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    content: '';
+    /* position: absolute; */
+    margin-top:20px ;
+    border: 2ps solid red;
+    /* padding: 50px; */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* z-index: -1; */
+    margin-top: 2rem;
+   
+}
+
+.btn {
+    margin-top: 40px;
+    padding: 8px 14px;
+    font-weight: bold;
+    border-width: 0.0625rem;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 10px 4px;
+    /* border-style: solid; */
+    cursor: pointer;
+
+}
+
+.btn-red :hover {
+    color: red;
+    background-color: yellow;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border-style: solid;
+    /* border-width: 0.0625rem;
+    border-radius: 0.1875rem; */
+}
+
+.main input {
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+}
