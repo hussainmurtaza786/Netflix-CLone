@@ -56,20 +56,22 @@ nav button {
     height: calc(100% - 62px);
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     /* align-items: center; */
     color: white;
     position: relative;
     font-family: 'Martel Sans', sans-s;
     /* gap: 23px; */
     /* padding: 0 30px; */
-margin-top: 2rem;
-margin-left: rem;
+    margin-top: rem;
+    margin-left: rem;
     text-align: start;
 }
 
 .hero> :nth-child(1) {
-    width: 588px;
+    margin-left: 8rem;
+    margin-top: 8rem;
+    width: 580px;
     /* height: 166px; */
     /* margin-bottom: 50px; */
     /* margin: 50px 30px; */
@@ -81,26 +83,33 @@ margin-left: rem;
 }
 
 .hero> :nth-child(2) {
+    margin-left: 8rem;
     font-weight: 400;
+    margin-top: 10px;
     font: 24px;
     /* text-align: center; */
 }
 
 .hero> :nth-child(3) {
+    margin-left: 8rem;
     /* text-align: start; */
     font-weight: 400;
-    font-size: 20px;
+    margin-top: 20px;
+    font-size: 12px;
     /* text-align: center; */
 }
-.black{
+
+.black {
     width: 99vw;
     height: 100px;
     /* background-color: black; */
     /* border: 2px solid red; */
     border-top-right-radius: 250px;
-    border-top-left-radius:250px; ;
+    border-top-left-radius: 250px;
+    ;
 }
-.seperation{
+
+.seperation {
 
     /* border: 1px solid red; */
     width: 99%;
@@ -108,7 +117,7 @@ margin-left: rem;
     background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
     content: '';
     /* position: absolute; */
-    margin-top:20px ;
+    margin-top: 20px;
     border: 2ps solid red;
     /* padding: 50px; */
     right: 0;
@@ -116,24 +125,31 @@ margin-left: rem;
     left: 0;
     /* z-index: -1; */
     margin-top: 2rem;
-   
+
+}
+#text{
+    margin-left: 8rem;
+    height: 40px;
+    width: 300px;
+    /* padding: 20px 80px; */
 }
 
 .btn {
-    margin-top: 40px;
+    /* margin-top: 40px; */
     padding: 8px 14px;
     font-weight: bold;
     border-width: 0.0625rem;
-    border-radius: 7px;
+    border-radius: 5px;
     background-color: white;
 }
 
 .btn-red {
     background-color: red;
     color: white;
-    padding: 10px 4px;
+    padding: 18px 50px;
     /* border-style: solid; */
     cursor: pointer;
+    border-radius: 4px;
 
 }
 
